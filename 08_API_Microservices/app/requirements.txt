@@ -1,0 +1,7 @@
+numpy
+fastapi
+uvicorn
+scikit-learn==0.20.3
+pandas
+onnx
+onnxruntime
