@@ -7,7 +7,7 @@ import pandas as pd
 data = pd.read_csv('sample_inference_data.csv')
 data = data.drop(columns=['Timestamp', 'Location', 'Future_weather_condition'])
 
-url = 'http://52.142.114.168:80/api/v1/service/prod-webservice/score'
+url = 'http://40.127.226.168:80/api/v1/service/prod-webservice/score'
 headers = {'Content-Type':'application/json'}
 
 
