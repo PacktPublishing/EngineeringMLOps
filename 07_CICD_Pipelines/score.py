@@ -14,11 +14,11 @@ def init():
     global model, scaler, input_name, label_name, inputs_dc, prediction_dc
     
 
-    scaler_path = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'model-scaler/1/model-scaler.pkl')
+    scaler_path = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'scaler/1/scaler.pkl')
     # deserialize the model file back into a sklearn model
     scaler = joblib.load(scaler_path)
     
-    model_onnx = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'support-vector-classifier/2/svc.onnx')
+    model_onnx = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'support-vector-classifier/1/svc.onnx')
     # print(os.listdir(model_onnx))
     model = onnxruntime.InferenceSession(model_onnx, None)
     input_name = model.get_inputs()[0].name

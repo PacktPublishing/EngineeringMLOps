@@ -18,7 +18,7 @@ def init():
     
     # Add your telemetry key
     tc = TelemetryClient('xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx')
-    scaler_path = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'model-scaler/1/model-scaler.pkl')
+    scaler_path = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'scaler/1/scaler.pkl')
     # deserialize the model file back into a sklearn model
     
     try:
@@ -27,7 +27,7 @@ def init():
         tc.track_event('FileNotFoundException', {'error_message': str(e)}, {'FileNotFoundError': 101})
         tc.flush()
 
-    model_onnx = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'support-vector-classifier/2/svc.onnx')
+    model_onnx = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'support-vector-classifier/1/svc.onnx')
     
     try:
         model = onnxruntime.InferenceSession(model_onnx, None)
