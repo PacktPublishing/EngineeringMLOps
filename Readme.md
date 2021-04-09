@@ -1,0 +1,1 @@
+This is a public repo where code samples are stored for the book [Engineering MLOps](https://www.packtpub.com/product/engineering-mlops/9781800562882).
