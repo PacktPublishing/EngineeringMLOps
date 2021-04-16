@@ -4,7 +4,7 @@
 
 This is the code repository for [Engineering MLOps](https://www.packtpub.com/product/engineering-mlops/9781800562882), published by Packt.
 
-**The definitive guide to passing the MLS-C01 exam on the very first attempt**
+**Rapidly build, test, and manage production-ready machine learning life cycles at scale**
 
 ## What is this book about?
 MLOps is a systematic approach to building, deploying, and monitoring machine learning (ML) solutions. It is an engineering discipline that can be applied to various industries and use cases. This book presents comprehensive insights into MLOps coupled with real-world examples to help you to write programs, train robust and scalable ML models, and build ML pipelines to train and deploy models securely in production.
