@@ -1,3 +1,7 @@
+## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/B16572?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
+-----
+For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
+
 # Engineering MLOps
 
 <a href="https://www.packtpub.com/product/engineering-mlops/9781800562882"><img src="https://static.packt-cdn.com/products/9781800562882/cover/smaller" alt="Book Name" height="256px" align="right"></a>
