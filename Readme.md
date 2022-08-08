@@ -58,6 +58,9 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 * Interpretable Machine Learning with Python [[Packt]](https://www.packtpub.com/product/interpretable-machine-learning-with-python/9781800203907) [[Amazon]](https://www.amazon.com/Interpretable-Machine-Learning-Python-hands/dp/180020390X)
 
 * Mastering Azure Machine Learning [[Packt]](https://www.packtpub.com/product/mastering-azure-machine-learning/9781789807554) [[Amazon]](https://www.amazon.com/Mastering-Azure-Machine-Learning-end-ebook/dp/1789807557)
+  
+## Errata 
+ * Page 20 (Under Deploy):  **Figure 1.12 depicts the deploy pipeline, which has two components** _should be_ **Figure 1.11 depicts the deploy pipeline, which has two components**
 
 ## Get to Know the Author
 **Emmanuel Raj**
